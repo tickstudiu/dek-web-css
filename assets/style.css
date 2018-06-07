@@ -1,0 +1,13 @@
+.service-card, .job-card{
+  transition: all 0.5s;
+}
+
+.service-card:hover{
+  transform: translate(-5px,-5px);
+  box-shadow: 7px 7px #eaeaea;
+}
+
+.job-card:hover{
+  transform: translate(0,-7px);
+  box-shadow: 0 10px #eaeaea;
+}
