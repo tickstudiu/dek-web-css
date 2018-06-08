@@ -2,6 +2,10 @@
   transition: all 0.5s;
 }
 
+.product-list{
+  transition: all 0.25s;
+}
+
 .service-card:hover{
   transform: translate(-5px,-5px);
   box-shadow: 7px 7px #eaeaea;
@@ -10,4 +14,13 @@
 .job-card:hover{
   transform: translate(0,-7px);
   box-shadow: 0 10px #eaeaea;
+}
+
+.product-list:hover{
+  background-color: #343a40;
+  color: white;
+}
+
+.product-list:hover a{
+  color: white;
 }
