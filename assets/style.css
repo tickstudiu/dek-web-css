@@ -24,3 +24,9 @@
 .product-list:hover a{
   color: white;
 }
+
+.scroll-model{
+  max-height: 375px;
+  overflow: auto;
+  position: relative;
+}
